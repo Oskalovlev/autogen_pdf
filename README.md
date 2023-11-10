@@ -9,10 +9,10 @@
 1. *Склонируйте репозиторий и перейдите в него*:
 
     ```sh
-    git clone https://github.com/Oskalovlev/emp_track.git
+    https://github.com/Oskalovlev/autogen_pdf.git
     ```
     ```sh
-    cd YaTrack-backend/
+    cd autogen_pdf/
     ```
 ---
 2. *Для работы с PostgreSQL*:

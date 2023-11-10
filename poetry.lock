@@ -328,6 +328,16 @@ files = [
 ]
 
 [[package]]
+name = "json2html"
+version = "1.3.0"
+description = "JSON to HTML Table Representation"
+optional = false
+python-versions = "*"
+files = [
+    {file = "json2html-1.3.0.tar.gz", hash = "sha256:8951a53662ae9cfd812685facdba693fc950ffc1c1fd1a8a2d3cf4c34600689c"},
+]
+
+[[package]]
 name = "mccabe"
 version = "0.7.0"
 description = "McCabe checker, plugin for flake8"
@@ -1089,7 +1099,17 @@ requests = "*"
 vkaudio = ["beautifulsoup4"]
 vkstreaming = ["websocket-client"]
 
+[[package]]
+name = "wkhtmltopdf"
+version = "0.2"
+description = "Simple python wrapper for wkhtmltopdf"
+optional = false
+python-versions = "*"
+files = [
+    {file = "wkhtmltopdf-0.2.tar.gz", hash = "sha256:530fffb5d1faf4f4cd5248c14fd1b4b7fe311541d0660dc2c2272c32b3c72211"},
+]
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "cabef9b72a02affbbb0c5b453bc05a646a9b3fc715c984f22f37f70e5f4a1cd8"
+content-hash = "dd4d85595ffbc6ce98c672106c54e1a15d29c0caa639720e71ac7e29bf34808f"

@@ -6,7 +6,20 @@ class BaseConfig(BaseModel):
     DESCRIPTION: str = "PDF"
 
     SECRET: str = "SECRET"
-    VK_TOKEN: SecretStr
+
+
+class ParserConfig(BaseModel):
+    host: str = "api.vk.ru"
+    vk_token: SecretStr
+    version: float = 5.154
+
+    method_get_user: str = "users.get"
+
+    method_get_friends: str = "friends.get"
+    fields_friend: str = "contacts"
+
+    method_get_group: str = "groups.get"
+    filter_group: str = "groups,publics"
 
 
 class DatabaseConfig(BaseModel):

@@ -58,26 +58,28 @@
     </details>
 
     <details><summary><h4>Запуск виртуального окружения</h4></summary>
-   - Создать файл .toml
+        
+    - Создать файл .toml:
      ```bash
-        poetry init
+         poetry init
      ```
-     > Соглашаяь на все стандартные значения, если нет другого варианта
-   - Создание виртуального окружения:
-     ```bash
-        poetry env use python
-     ```
+   > Соглашаясь на все стандартные значения, если нет другого варианта
+   
+    - Создание виртуального окружения:
+      ```bash
+          poetry env use python
+      ```
     - Установка зависимостей:
       ```bash
-        poetry install --with dev,test
+          poetry install --with dev,test
       ```
     - Запуск оболочки и активация виртуального окружения (из папки проекта):
       ```bash
-        poetry shell
+          poetry shell
       ```
     - Проверка активации виртуального окружения:
       ```bash
-        poetry env list
+          poetry env list
       ```
     </details>
 

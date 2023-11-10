@@ -129,3 +129,7 @@
         git add .
       ```
 </details>
+
+### Автор
+
+- Оскалов Лев (*Telegram*: [@oskalov](https://t.me/oskalov), **Github**: [Oskalovlev](https://github.com/Oskalovlev))
